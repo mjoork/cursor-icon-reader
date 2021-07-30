@@ -2,7 +2,7 @@
 
 [![Linux and Windows build](https://github.com/mjoork/cir/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/mjoork/cir/actions/workflows/build-and-test.yml)
 
-Cursor/Icon Reader is simple utility to format CUR and ICO files data into a human-readable format.
+Cursor/Icon Reader is a simple utility to format CUR and ICO files data into a human-readable format.
 
 ## Sample output
 
