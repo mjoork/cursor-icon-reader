@@ -1,5 +1,5 @@
 [package]
-name = "read-cursor"
+name = "cir"
 version = "1.0.0"
 description = "A simple utility to read CUR and ICO files data in a human-readable form."
 edition = "2018"
