@@ -1,6 +1,5 @@
-use std::{convert::TryInto, fs::File, io::Read};
-
-use byteorder::{BigEndian, LittleEndian, ReadBytesExt};
+use byteorder::{LittleEndian, ReadBytesExt};
+use std::{fs::File, io::Read};
 
 #[derive(Debug)]
 struct IconDirEntry {
