@@ -1,0 +1,11 @@
+[package]
+name = "read-cursor"
+version = "1.0.0"
+description = "A simple utility to read CUR and ICO files data in a human-readable form."
+edition = "2018"
+license-file = "LICENSE"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+byteorder = "1.4.3"
