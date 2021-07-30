@@ -1,7 +1,7 @@
 [package]
 name = "cir"
 version = "1.0.0"
-description = "A simple utility to read CUR and ICO files data in a human-readable form."
+description = "A simple utility to format CUR and ICO files data into a human-readable format."
 edition = "2018"
 license-file = "LICENSE"
 
