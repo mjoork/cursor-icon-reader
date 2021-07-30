@@ -61,7 +61,8 @@ impl std::fmt::Display for IconDirEntry {
 }
 
 struct IconDir {
-    reserved_bytes: u16,
+    // Reading the reserved bytes in the start just in case.
+    _reserved_bytes: u16,
     type_of_file: u16,
     number_of_images: u16,
     entries: IconDirEntries,
