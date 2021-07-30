@@ -97,7 +97,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     cur_file.read_to_end(&mut data)?;
 
     let mut cur = IconDir {
-        reserved_bytes: (&data[0..2]).read_u16::<LittleEndian>()?,
+        _reserved_bytes: (&data[0..2]).read_u16::<LittleEndian>()?,
         type_of_file: (&data[2..4]).read_u16::<LittleEndian>()?,
         number_of_images: (&data[4..6]).read_u16::<LittleEndian>()?,
         entries: IconDirEntries::with_capacity((&data[4..6]).read_u16::<LittleEndian>()?.into()),
