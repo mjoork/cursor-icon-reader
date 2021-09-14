@@ -1,6 +1,6 @@
 # Cursor/Icon Reader
 
-[![Linux and Windows build](https://github.com/mjoork/cir/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/mjoork/cir/actions/workflows/build-and-test.yml)
+[![Linux and Windows build](https://github.com/mjoork/cursor-icon-reader/actions/workflows/build-and-test.yml/badge.svg)](https://github.com/mjoork/cursor-icon-reader/actions/workflows/build-and-test.yml)
 
 Formats CUR and ICO files data into a human-readable format.
 
@@ -27,12 +27,12 @@ Image offset: 22 bytes
 Cargo supports installing directly from GIT, like so:
 
 ```shell
-cargo install --git https://github.com/mjoork/text-to-emoji.git
+cargo install --git https://github.com/mjoork/cursor-icon-reader.git
 ```
 
-You can also [download a zip archive](https://github.com/mjoork/cir/archive/master.zip), extract it and install from inside the directory via `cargo install --path .`.
+You can also [download a zip archive](https://github.com/mjoork/cursor-icon-reader/archive/master.zip), extract it and install from inside the directory via `cargo install --path .`.
 
-### Via latest release from [releases](https://github.com/mjoork/cir/releases/)
+### Via latest release from [releases](https://github.com/mjoork/cursor-icon-reader/releases/)
 
-1. Download [latest release](https://github.com/mjoork/cir/releases/latest/) binary for your respective OS.
+1. Download [latest release](https://github.com/mjoork/cursor-icon-reader/releases/latest/) binary for your respective OS.
 2. Add it to `PATH`.
