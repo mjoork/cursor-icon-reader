@@ -1,11 +1,18 @@
 [package]
-name = "cir"
+name = "cursor-icon-reader"
 version = "1.0.0"
-description = "A simple utility to format CUR and ICO files data into a human-readable format."
+description = "Formats CUR and ICO files data into a human-readable format."
+authors = ["Mark Pokhil <vfhr.afr@gmail.com>"]
 edition = "2018"
 license-file = "LICENSE"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bin]]
+name = "cir"
+path = "src/main.rs"
+
+[profile.release]
+panic='abort'
+opt-level=3
 
 [dependencies]
 byteorder = "1.4.3"
